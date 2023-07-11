@@ -69,6 +69,10 @@ Error generating stack: `+i.message+`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  @media (max-width: 1280px) {
+    font-size: 14px;
+  }
 `,hv=It.div`
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -82,6 +86,15 @@ Error generating stack: `+i.message+`
   left: 50%;
   top: 50%;
 
+  @media (max-width: 1280px) {
+    flex-direction: column;
+    display: flex;
+    height: 75%;
+    width: 70%;
+    left: 50%;
+    top: 60%;
+  }
+
   & button:last-child {
     grid-area: 4 / 1 / 5 / 3;
   }
@@ -91,6 +104,10 @@ Error generating stack: `+i.message+`
   width: 100%;
   top: -30px;
   left: 50%;
+
+  @media (max-width: 1280px) {
+    top: -50px;
+  }
 `,yv=It.span`
   transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
   transform: translateY(225%) translateX(-50%);
@@ -260,6 +277,10 @@ Error generating stack: `+i.message+`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  @media (max-width: 1280px) {
+    font-size: 20px;
+  }
 `,v2=It.div`
   transform: translate(-50%, -50%);
   justify-content: center;
@@ -275,6 +296,13 @@ Error generating stack: `+i.message+`
   
   button {
     width: 50%;
+  }
+
+  @media (max-width: 1280px) {
+    height: 75%;
+    width: 70%;
+    left: 50%;
+    top: 50%;
   }
 `,Hn=It(g2)`
   width: 100%;
