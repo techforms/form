@@ -77,7 +77,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     font-size: 36px;
   }
 `,Jd=st(yy)`
-    position: absolute;
+  color: #ffffff;
+  position: absolute;
 `,Sy=st.div`
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
