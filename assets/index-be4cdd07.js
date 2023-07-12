@@ -351,7 +351,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
   
   img {
+    transform: translate(-50%, -50%);
+    position: absolute;
     height: 100vh;
+    left: 50%;
+    top: 50%;
   }
 `,Hn=Qe(b2)`
   width: 100%;
