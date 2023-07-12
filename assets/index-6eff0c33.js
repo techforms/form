@@ -62,6 +62,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   letter-spacing: 10px;
   text-align: center;
   font-weight: 600;
+  margin-top: 20px;
   font-size: 50px;
   color: #FFF;
 
@@ -77,12 +78,22 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `,Js=Qe.div`
   display: flex;
   gap: 10px;
+
+  @media (max-width: 1280px) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 `,ky=Qe.div`
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
   display: flex;
   gap: 10px;
+
+  @media (max-width: 1280px) {
+    width: 100%;
+  }
 `,ef=Qe(xy)`
   * {
     color: #ffffff;
@@ -302,6 +313,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   letter-spacing: 10px;
   text-align: center;
   font-weight: 300;
+  margin-top: 20px;
   font-size: 50px;
   color: #FFF;
   
